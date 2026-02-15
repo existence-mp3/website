@@ -1,2 +1,29 @@
-h1 {text-align: center;background-color: tomato;}
-p.recommendation {background-color: dodgerblue;text-align: center;width: 130px;}
+h1 {
+    text-align: center;
+    background-color: tomato;
+    margin: 0px;
+}
+
+p.recommendation {
+    text-align: center;
+    width: 130px;    
+    background-color: white;
+    border: 2px dashed orange;
+}
+
+hr {
+    margin: 5px;
+}
+
+a:link {
+    color:blue;
+    text-decoration: none;  
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color:blue
+}

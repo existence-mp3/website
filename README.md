@@ -1,1 +1,2 @@
 # website
+this is just some code i have written for my website which is comprised of a bunch of random stuff i decided to put on my website for who knows what reason. if you have found this repository for whatever reason, feel free to look at it, although there probably won't be anything that interesting
