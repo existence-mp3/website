@@ -1,6 +1,6 @@
 @font-face {
     font-family: pixel;
-    src: url('fonts/LowresPixel-Regular.otf');
+    src: url('fonts/pixelFont.svg'), url('fonts/LowresPixel-Regular.otf');
 }
 
 body {
@@ -64,6 +64,25 @@ div.nav {
 
     li a:hover {
         background-color: tomato;
+    }
+}
+
+ul.pageList {
+    font-family: pixel;
+    list-style-image: url(images/bullet.gif);
+    list-style-type: square;
+
+    li a {
+        color: dodgerblue;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        text-decoration: underline;
+    }
+
+    li a:active {
+        color: blueviolet;
     }
 }
 
