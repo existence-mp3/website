@@ -67,22 +67,24 @@ div.nav {
     }
 }
 
-ul.pageList {
+div.linkList {
     font-family: pixel;
     list-style-image: url(images/bullet.gif);
-    list-style-type: square;
 
-    li a {
-        color: dodgerblue;
-        text-decoration: none;
-    }
+    ul li {
 
-    li a:hover {
-        text-decoration: underline;
-    }
+        a {
+            color: dodgerblue;
+            text-decoration: none;
+        }
 
-    li a:active {
-        color: blueviolet;
+        a:hover {
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: blueviolet;
+        }
     }
 }
 
