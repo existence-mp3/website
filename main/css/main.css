@@ -1,165 +1,157 @@
 @font-face {
-    font-family: pixel;
-    src: url('fonts/LowresPixel-Regular.otf');
+  font-family: pixel;
+  src: url("fonts/LowresPixel-Regular.otf");
 }
 
 @font-face {
-    font-family: montserrat;
-    src: url('fonts/Montserrat-VariableFont_wght.ttf')
+  font-family: montserrat;
+  src: url("fonts/Montserrat-VariableFont_wght.ttf");
 }
 
 body {
-    background-color: rgb(255, 225, 225);
-    border: 10px solid rgb(255, 0, 0);
-    margin: 0;
-    padding-left: 10;
+  background-color: rgb(255, 225, 225);
+  border: 10px solid rgb(255, 0, 0);
+  margin: 0;
+  padding-left: 10;
 }
 
 div.main {
-    margin: 10;
 }
 
 div.header {
-    margin: 0;
-    padding: 0;
-    background-color: tomato;
+  margin: 0;
+  padding: 0;
+  background-color: tomato;
 }
 
 div.title {
-    font-family: pixel;
-    font-size: 400%;
-    text-align: center;
+  font-family: pixel;
+  font-size: 400%;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+
+  h1 {
     margin: 0;
+  }
+
+  a {
+    display: block;
+    color: black;
+    text-decoration: none;
     padding: 0;
-
-    h1 {
-        margin: 0;
-    }
-
-    a {
-        display:block;
-        color: black;
-        text-decoration: none;
-        padding: 0;
-        margin: 0;
-    }
+    margin: 0;
+  }
 }
 
 div.nav {
-    ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: lightcoral;
-    }
+  display: flex;
+  flex-direction: row;
+  font-family: pixel;
+  background-color: lightcoral;
 
-    li {
-        font-family: pixel;
-        font-size: 125%;
-        float: left;
-    }
+  a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 8px;
+  }
 
-    li a {
-        display: block;
-        color: black;
-        text-decoration: none;
-        padding: 8px;
-    }
-
-    li a:hover {
-        background-color: tomato;
-    }
+  a:hover {
+    background-color: tomato;
+  }
 }
 
 div.linkList {
-    font-family: pixel;
-    list-style-image: url(images/bullet.gif);
+  font-family: pixel;
+  list-style-image: url(images/bullet.gif);
 
-    ul li {
-
-        a {
-            color: dodgerblue;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        a:active {
-            color: blueviolet;
-        }
-    }
-}
-
-div.pageDiscs {
-    width: 1200px;
-    margin: auto;
-    padding: 10px;
-    background-color: white;
-}
-
-div.pageDiscHeading {
-    margin: 10px;
-    padding-left: 5px;
-    font-family: pixel;
-    font-size: 125%;
-    background-color: tomato;
-
-    h2{
-        margin: 0px;
-    }
-
+  ul li {
     a {
-        color: black;
-        text-decoration: none;
+      color: dodgerblue;
+      text-decoration: none;
     }
 
     a:hover {
-        text-decoration: underline;
+      text-decoration: underline;
     }
 
     a:active {
-        color: blueviolet;
+      color: blueviolet;
     }
+  }
+}
+
+div.pageDiscs {
+  width: 1200px;
+  margin: auto;
+  padding: 10px;
+  background-color: white;
+}
+
+div.pageDiscHeading {
+  margin: 10px;
+  padding-left: 5px;
+  font-family: pixel;
+  font-size: 125%;
+  background-color: tomato;
+
+  h2 {
+    margin: 0px;
+  }
+
+  a {
+    color: black;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  a:active {
+    color: blueviolet;
+  }
 }
 
 div.pageDisc {
 }
 
 div.pageDiscContent {
-
 }
 
-div.bodyText {
-    float: left;
+div.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 p {
-    margin: 10px;
-    font-family: montserrat;
+  margin: 10px;
+  font-family: montserrat;
 }
 
 div.recommendation {
-    text-align: center;
-    float: right;
-    width: 150px;    
-    background-color: white;
-    border: 2px dashed tomato;
-    border-radius: 20px;
-    margin: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  padding-top: 0;
+  text-align: center;
+  background-color: white;
+  border: 2px dashed tomato;
+  border-radius: 20px;
+  margin: 10px;
 }
 
-a.external{
-    color: blue;
-    text-decoration: none;  
+a.external {
+  color: blue;
+  text-decoration: none;
 }
 
 a.external:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 a.external:active {
-    color: blueviolet;
+  color: blueviolet;
 }
